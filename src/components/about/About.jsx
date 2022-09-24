@@ -2,6 +2,9 @@ import React from 'react'
 import "./about.css"
 import ME from '../../assets/me.png'
 import{FaAward} from 'react-icons/fa'
+import{BiCodeAlt} from 'react-icons/bi'
+import{MdSchool} from 'react-icons/md'
+
 const About = () => {
   return (
     <section id='about'>
@@ -22,16 +25,25 @@ const About = () => {
               <small>8 Months Working</small>
             </article>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>8 Months Working</small>
+              <BiCodeAlt className='about__icon'/>
+              <h5>Current Stack</h5>
+              <small>Typescript, React, Node.js</small>
             </article>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>8 Months Working</small>
+              <MdSchool className='about__icon'/>
+              <h5>Current Program</h5>
+              <small>Software Engineering Technology</small>
             </article>
           </div>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Libero officia quibusdam vitae? Sint culpa dicta delectus 
+            sequi quidem deleniti perspiciatis vitae ipsa a eveniet ipsam, 
+            commodi et quasi nisi dolores.
+          </p>
+
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
