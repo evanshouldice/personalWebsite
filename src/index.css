@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg: #224A59;
+    --color-bg-variant: #30728C;
+    --color-primary: #59CCD9;
+    --color-primary-variant: #4494A6;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
@@ -38,7 +38,10 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(filepath) add later if you want bg texture */
+    background-image: url(../src/assets/bgtexture.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /***************** GENERAL STYLES ****************/
@@ -62,6 +65,8 @@ h1{
 
 section {
     margin-top: 8rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 section > h2, section > h5 {
